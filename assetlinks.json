@@ -1,9 +1,14 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.customtabs",
-    "sha256_cert_fingerprints":
-    ["98:C0:0E:FF:DF:2C:97:D0:65:74:75:D0:43:BF:8F:E9:36:60:EB:50:37:D8:51:01:70:CC:A7:1B:65:B2:A3:6E"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.use_as_origin"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.customtabs",
+      "sha256_cert_fingerprints": [
+        "9F:29:9F:C8:44:48:19:55:CE:C7:3A:91:2E:0C:1E:47:34:48:F0:9D:5A:05:A4:26:18:CF:FC:7B:95:56:B8:87"
+      ]
+    }
   }
-}]
+]
